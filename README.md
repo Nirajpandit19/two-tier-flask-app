@@ -10,7 +10,7 @@ The primary goal was to move from a monolithic setup to a cloud-native, containe
 ## 🏗 System Architecture & Traffic Flow
 
 **Traffic Path:**
-`User` → `Route 53` → `Network Load Balancer (NLB)` → `EKS Worker Nodes` → `Flask Pods` → `MySQL Service (ClusterIP)` → `MySQL Pod` → `Amazon EBS`
+`User` → `Network Load Balancer (NLB)` → `EKS Worker Nodes` → `Flask Pods` → `MySQL Service (ClusterIP)` → `MySQL Pod` → `Amazon EBS`
 
 ---
 
